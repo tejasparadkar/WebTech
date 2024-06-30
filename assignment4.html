@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRP Ice Cream Parlour</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #2e69d6;
+            color: white;
+        }
+        .top-bar a.logo {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-image: url('../Assets/4.png');
+            background-size: cover;
+            border-radius: 50%; 
+            
+        }
+        .top-bar a.text-link {
+            flex-grow: 1;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .top-bar .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .top-bar button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ffffff;
+            color: #0d1139;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .top-bar button:hover {
+            background-color: #eeeeee;
+        }
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        table:hover {
+            background-color: #e0f7fa;
+            transform: scale(1.05);
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #2e69d6;
+            color: white;
+        }
+        .icecream img {
+            width: 50px;
+            height: 50px;
+            vertical-align: middle;
+        }
+        .icecream span {
+            vertical-align: middle;
+            padding-left: 10px;
+        }
+        .payment-options a {
+            display: block;
+            margin: 5px 0;
+            color: #191146;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .payment-options a:hover {
+            text-decoration: underline;
+        }
+        .price-column a {
+            color: #333;
+            text-decoration: none;
+        }
+        .price-column a:hover {
+            color: #b90000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <a href="https://amul.com/m/about-us" class="logo"></a>
+    <a href="https://amul.com/products/icecream.php" class="text-link">TRP Ice Cream Parlour</a>
+    <div class="buttons">
+        <button onclick="window.location.href='https://shop.amul.com/en/user/login'">Login</button>
+        <button onclick="window.location.href='https://shop.amul.com/en/user/register'">Sign Up</button>
+    </div>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Ice Cream</th>
+            <th>Price</th>
+            <th>Pay</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="icecream"><a href="https://amul.com/products/amul-tub-chocolate-brownie-icecream-info.php"><img src="../Assets/5.jpg" alt="Ice Cream 1"><span>CHOCOLATE</span></a></td>
+            <td class="price-column"><a href="../Assets/5.jpg">₹50</a></td>
+            <td class="payment-options"><a href="https://cash.app/">Pay by Cash</a></td>
+        </tr>
+        <tr>
+            <td class="icecream"><a href="https://amul.com/products/amul-cup-butterscotch-bliss.php"><img src="../Assets/6.jpeg" alt="Ice Cream 2"><span>BUTTERSCOTCH</span></a></td>
+            <td class="price-column"><a href="../Assets/6.jpeg">₹60</a></td>
+            <td class="payment-options"><a href="https://payments.google.com/gp/w/home/paymentmethods?sctid=3980672820337633">Pay by GPay</a></td>
+        </tr>
+        <tr>
+            <td class="icecream"><a href="https://amul.com/products/amul-combo-pack-strawberry.php"><img src="../Assets/7.jpeg" alt="Ice Cream 3"><span>STRAWBERRY</span></a></td>
+            <td class="price-column"><a href="../Assets/7.jpeg">₹70</a></td>
+            <td class="payment-options"><a href="https://www.amazon.in/amazonpay/home">Amazon Pay</a></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
