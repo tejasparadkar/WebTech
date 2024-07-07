@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="
+    https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js
+    "></script>
+    <title>Multimedia</title>
+</head>
+<body>
+    <audio src="/Assets/audio.mp3" controls autoplay muted loop controllist="nodownload" style="width: 300px;height: 90px;"></audio>
+    <audio src="/Assets/audio.mp3" controls autoplay muted loop style="width: 500px;height: 50px;"></audio><br>
+    <video src="/Assets/video.mp4" controls autoplay muted loop preload="metadata" style="width: 200px;"
+    poster="/Assets/6.jpeg"></video>
+    <video src="/Assets/video.mp4" controls autoplay muted loop preload="metadata" style="width: 300px;"></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/edhv8IxtHDc?si=dxknOEKwiGM-G9Py" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <img src=" https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://pixabay.com/" alt=""><br>
+    <a href=""><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.732948620354!2d72.82042337497386!3d18.943211082234193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e25ee8439d%3A0x5acd924f2726ad2b!2sMarine%20Dr%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1719903396695!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+    <canvas id="barcode"></canvas>
+    <script>
+        JsBarcode("#barcode","WebTech")
+    </script>
+</body>
+</html>
