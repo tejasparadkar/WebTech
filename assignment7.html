@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novell Services Login</title>
+</head>
+<body>
+    <table>
+    <thead><th colspan="2" style="text-align: center;"><h1>Novell Services Login</h1></th></thead>
+    <tbody>
+        <tr>
+            <td><label for="un">Username: </label></td>
+            <td><input type="text" name="un" id="un"></td>
+        </tr>
+        <tr>
+            <td><label for="pw">Password: </label></td>
+            <td><input type="password" name="pw" id="pw"></td>
+        </tr>
+        <tr>
+            <td> <label for="coe">City of Employment: </label></td>
+            <td><input type="text" name="coe" id="coe"></td>
+        </tr>
+        <tr>
+            <td><label for="ws">Web Server: </label></td>
+            <td> <select name="ws" id="ws">
+                <option value="" disabled selected>-Choose a server-</option>
+                <option value="DataBase Server">DataBase Server</option>
+                <option value="Web Server">Web Server</option>
+                <option value="Proxy Server">Proxy Server</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><span id="role">Please specify your role: </span></td>
+            <td><input type="radio" name="role" id="Admin">Admin
+                <br>
+                <input type="radio" name="role" id="Engineer">Engineer
+                <br>
+                <input type="radio" name="role" id="Manager">Manager
+                <br>
+                <input type="radio" name="role" id="Guest">Guest
+            </td>
+        </tr>
+        <tr>
+            <td><span id="signon">Single Sign-on to the following</span></td>
+            <td><input type="checkbox" name="signon" id="Mail">Mail
+                <br>
+                <input type="checkbox" name="signon" id="Payroll">Payroll
+                <br>
+                <input type="checkbox" name="signon" id="Self-Service">Self-Service
+                <br></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Login</button>
+            <button type="reset">Reset</button></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

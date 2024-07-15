@@ -1,0 +1,21 @@
+.container h1{
+background: hotpink;
+color:white;
+}
+
+.container>h1
+{
+background: chocolate;
+color: aliceblue;
+}
+
+.sub-container>.head3+article{
+    background: royalblue;
+    color: goldenrod;
+}
+
+.sub-container>.head3~article
+{
+    background: red;
+    color: white;
+}

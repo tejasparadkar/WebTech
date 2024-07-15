@@ -1,0 +1,11 @@
+@import url(./demo.css);
+div
+{
+    background: khaki;
+    color: black;
+}
+p
+{
+    background: chocolate;
+    color: whitesmoke;
+}

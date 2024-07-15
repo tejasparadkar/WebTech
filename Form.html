@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="./submit.html">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username" required>
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="DOB" id="DOB">
+        <br><br>
+        <label for="percentage">Select Percentage</label>
+        <input type="range" name="percentage" id="percentage" max="100" min="50">
+        <br><br>
+        <span id="gender">Select Gender</span>
+        <input type="radio" name="gender" id="male" value="male">Male
+        <input type="radio" name="gender" id="female" value="female">Female
+        <input type="radio" name="gender" id="other" value="other">Others
+        <br><br>
+        <span id="subject">Select Subject</span>
+        <input type="checkbox" name="subject" id="Java">Java
+        <input type="checkbox" name="subject" id="JavaScript">Java Script
+        <input type="checkbox" name="subject" id="Python">Python
+        <input type="checkbox" name="subject" id="WebTech">WebTech
+        <br><br>
+        <label for="comments">Enter comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="20"></textarea>
+        <br><br>
+        <label for="country">Select Country</label>
+        <select name="country" id="country">
+            <option value="" disabled selected>Select country</option>
+            <optgroup label="Asia">
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="Russia">Russia</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="UK">UK</option>
+                <option value="Germany">Germany</option>
+                <option value="Austria">Austria</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input name="state" list="location">
+        <datalist id="location">
+            <option value="Maharashtra"></option>
+            <option value="Tamil Nadu"></option>
+            <option value="Goa"></option>
+            <option value="UP"></option>
+            <option value="Gujarat"></option>
+        </datalist>
+        <br><br>
+        <button type="submit">Login</button>
+        <button type="button">Create New Account</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
