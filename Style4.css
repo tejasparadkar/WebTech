@@ -1,0 +1,42 @@
+html
+{
+    font-size: 20px;
+}
+.container
+{
+    /*height: 100mm;
+    width: 100mm;
+    height: 10cm;
+    width: 10cm;
+    height: 4in;
+    width: 4in;
+    height: 250px;
+    width: 250px;
+    height: 10pt;
+    width: 100pt; */
+    width: 15pc;
+    height: 15pc;
+    border: 1px solid black;
+
+}
+section
+{
+    font-size: 10px;
+}
+section>p
+{
+    /* font-size: 1.5em; */
+    font-size: 1.5rem;
+}
+aside
+{
+    width: 80%;
+    height: 350px;
+    border: 1px solid black;
+}
+.art
+{
+    height: 90vh;
+    width: 90vw;
+    border: 1px solid black;
+}
