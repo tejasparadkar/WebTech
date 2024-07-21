@@ -1,0 +1,59 @@
+
+.flex-container
+{
+    height: 500px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.c1
+{
+    margin-left: 15%;
+}
+.c1>h1
+{
+    color: blue;
+    font-size: 56px;
+    font-family:sans-serif;
+    padding: 0%;
+    margin: 0px;
+    font-weight: bolder;
+}
+.c1>pre
+{
+    color: black;
+    font-size: 26px;
+    font-style: inherit;
+}
+.c2
+{
+    margin-left: 1%;
+    margin-right: 10%;
+    margin-top: 10%;
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.c2>form
+{
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.c2>div
+{
+    background-color: white;
+}

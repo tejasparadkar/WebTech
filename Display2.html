@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display-Flex</title>
+    <style>
+        *
+        {
+            padding: 0px;
+            margin:0;
+            box-sizing: border-box;
+        }
+        .flex-container
+        {
+            height: 500px;
+            width: 80%;
+            margin: 40px auto;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            align-items: center;
+            /* align-items: end;
+            justify-content: start;
+            justify-content: center;
+            justify-content: end;   
+            justify-content: space-between;
+            justify-content: space-evenly;
+            justify-content: space-around; */
+            gap: 20px;
+        }
+        .flex-items
+        {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-items">div1</div>
+        <div class="flex-items">div2</div>
+        <div class="flex-items">div3</div>
+    </div>
+</body>
+</html>
